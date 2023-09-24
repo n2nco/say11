@@ -13,11 +13,12 @@ brew install mpv
 ```sh
 pip install say11
 ```
+## Configuration
 
-ENV: say11 expects an ELEVENLABS_API_KEY var
+Environmental variable: say11 expects ELEVENLABS_API_KEY 
 
 ```sh
-export ELEVENLABS_API_KEY=
+export ELEVENLABS_API_KEY=your_api_key_here
 ```
 
 Using say11 is incredibly simple. You can pipe text into the command from stdin, and it will use the Eleven Labs API to convert the text to speech. You can also specify a voice using the -v option.
